@@ -17,3 +17,4 @@ class Config(object):
     MAIL_PASSWORD = os.environ.get('MAIL_PASSWORD')
     ADMINS = ['nevergiveup@qq.com', '1160441983@qq.com']
     POSTS_PER_PAGE = 3
+    LANGUAGES = ['en', 'es']
