@@ -18,3 +18,4 @@ class Config(object):
     ADMINS = ['nevergiveup@qq.com', '1160441983@qq.com']
     POSTS_PER_PAGE = 3
     LANGUAGES = ['en', 'es']
+    MS_TRANSLATOR_KEY = os.environ.get('MS_TRANSLATOR_KEY') #Don't have any service key now
